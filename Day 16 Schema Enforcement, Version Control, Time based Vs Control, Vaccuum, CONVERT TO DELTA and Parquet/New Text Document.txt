@@ -1,0 +1,32 @@
+1:50 connect adls with notebook
+2:00 Writing to parquet format
+3:20 Reading parquet File
+4:11 Reading parquet file from Temp folder
+4:50 explain json file content
+5:20 Reading the delta lake file
+7:05 Overwriting the same file in delta folder
+8:40 Reading the overwritten file
+9:40 creating delta tables
+22:10 Reading data with More Columns
+24:10 Source with Less Columns
+25:55 Source data with different data type
+28:03 Schema Evolution, Allow changes for extra cols
+29:03 Allow different schema to evolve
+29:50 Writing data to a Delta Table
+32:01 Inserting records in the version table
+35:42 Using versionAsOf using SQL Syntax
+36:00 Using timestampAsOf
+37:00 Using timestamp AS OF in SQL
+38:33 Using RESTORE command to get previous version to Table
+39:55 Vacuum Command in databricks
+43:00 Performing multiple inserts
+44:18 Perfroming deletes in databricks
+46:37 vacuum in databricks
+51:02 Convert to delta and Overwriting Parquet
+53:20 CONVERT TO DELTA from parquet format
+
+
+
+
+
+

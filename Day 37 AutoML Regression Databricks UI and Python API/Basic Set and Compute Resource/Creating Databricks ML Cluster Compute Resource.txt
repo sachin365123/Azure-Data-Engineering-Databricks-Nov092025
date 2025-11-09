@@ -1,0 +1,8 @@
+https://www.udemy.com/course/databricks-machine-learning/learn/lecture/37997182#overview
+
+Creating Databricks ML Cluster
+
+Policy: Unrestricted
+Node: Single Node
+Performance: Runtime: 12.2 LTS ML (Scala 2.12, Spark 3.3.2)
+Node Type: Standard DS3v2 
