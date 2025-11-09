@@ -1,0 +1,4 @@
+Shortcut for my Excel
+1. Ctrl+ Mouse wheel: Zoom
+2. Ctrl+ Down Arrow: To reach Last Cell 
+3. Ctrl+ UP Arrow: To reach First Cell 

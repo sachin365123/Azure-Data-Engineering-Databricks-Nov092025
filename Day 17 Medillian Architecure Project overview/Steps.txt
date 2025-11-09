@@ -1,0 +1,64 @@
+Great approach on resource allocation and task management using Hadoop and Spark. Can you elaborate on how you would handle data redundancy and fault tolerance in HDFS while processing large datasets?
+
+Can you discuss how you would design a data processing solution using Hadoop for a dataset that spans multiple terabytes, focusing on efficient distributed processing and data handling?
+
+How would you implement an ETL pipeline using Spark, focusing on optimizing performance and handling memory efficiently?
+
+How do you handle data partitioning and caching to optimize performance in Spark?
+
+How do you ensure efficient memory management when processing real-time data streams in Spark?
+
+Can you explain how you would implement an ETL pipeline using Spark, focusing on optimizing performance and handling memory efficiently for both batch and real-time processing?
+
+Can you describe how you would design a data warehouse to efficiently manage and retrieve historical data, considering performance optimization and scalability?
+
+How would you design a data warehouse to efficiently store and retrieve this historical data, ensuring high performance and scalability?
+
+How would you ensure efficient data retrieval and scalability when designing a data warehouse for large-scale historical data?
+
+How would you ensure data consistency and integrity while scaling your data warehouse for increased data loads?
+
+Could you discuss how you would design a data warehouse schema to manage historical data, ensuring efficient performance and scalability?
+
+How would you handle the challenges of data retrieval efficiency when dealing with large volumes of historical data in your data warehouse design?
+
+How would you design a data pipeline to collect, transform, and load data from multiple sources into a data warehouse, ensuring real-time data processing and data quality?
+
+Could you elaborate on the tools or technologies you would use to ensure real-time data processing and data quality in your data pipeline design?
+
+
+How would you design a data pipeline to ensure seamless data flow and manage real-time data processing while ensuring data quality?
+
+How would you handle integrating data from multiple sources, ensuring both transformation and data quality before loading it into a data warehouse?
+
+Could you describe how you would approach designing a data pipeline for seamless integration and data quality management from multiple sources into a data warehouse?
+
+Can you share how you would manage real-time data processing and ensure data quality in the pipeline?
+
+Coding Question: 
+
+You are building a text messaging system where messages can be sent in parts due to size limitations. Each message part is tagged with a sequence number and the total number of parts. Your task is to implement a message assembler that takes an array of message parts (which may arrive in any order) and reconstructs the original message. Each message part is represented as a string in the format 'text|sequence_number|total_parts'. For example, 'Hello|1|3' means this is part 1 of a 3-part message containing the text 'Hello'. The assembled message should maintain the correct order of parts and include proper spacing between words that were split across parts.
+
+EXAMPLE 1
+Input:['Hello|1|3', 'World!|3|3', ' beautiful |2|3']
+
+Output:Hello beautiful World!
+
+Explanation:Three parts assembled in correct order with proper spacing
+
+EXAMPLE 2
+Input:['the last|2|2', 'This is |1|2']
+
+Output:This is the last
+
+Explanation:Two parts assembled in order, maintaining word spacing
+
+Requirements
+1 Implement a function that takes an array of message parts and returns the assembled message
+2 Handle message parts that may arrive in any order
+3 Ensure proper spacing between words when joining message parts
+4 Validate that all parts of a message are present before assembly
+5 Return an empty string if the message cannot be completely assembled
+6 Assume each message part contains valid formatting
+
+
